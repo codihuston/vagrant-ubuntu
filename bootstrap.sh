@@ -107,3 +107,4 @@ wget -O summon.tar.gz "https://github.com/cyberark/summon/releases/download/v0.9
   rm summon
 
 sudo curl -sSL https://raw.githubusercontent.com/cyberark/summon-conjur/main/install.sh | bash
+echo 'export SUMMON_PROVIDER_PATH=/usr/local/lib/summon' >> /home/vagrant/.bash_profile
